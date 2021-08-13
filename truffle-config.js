@@ -41,7 +41,15 @@ module.exports = {
 		// options below to some value.
 		findora: {
 			provider: () => new HDWalletProvider(mnemonic,
-				'https://dev-evm.dev.findora.org:8545'
+				'https://dev-evm.dev.findora.org:8545/'
+			),
+			network_id: '523',
+			gas: 5500000,
+			gasPrice: 1000000000000, // 1000 gwei
+		},
+		development: {
+			provider: () => new HDWalletProvider(mnemonic,
+				'http://127.0.0.1:8545/'
 			),
 			network_id: '523',
 			gas: 5500000,
