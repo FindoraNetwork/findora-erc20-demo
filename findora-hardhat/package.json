@@ -1,0 +1,19 @@
+{
+  "name": "findora-hardhat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.0",
+    "hardhat": "^2.0.3",
+    "hardhat-gas-reporter": "^1.0.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}

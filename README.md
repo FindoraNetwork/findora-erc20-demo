@@ -1,5 +1,5 @@
 # Findora ERC20 Demo
-Note: Add your `mnemonic` to [`truffle-config.js#L23`](https://github.com/tylerztl/findora-erc20-demo/blob/main/truffle-config.js#L23).
+Note: Create a .secret file in the dem root directory you need, and fill in your private key。
 
 ## Installation 
 
@@ -14,10 +14,20 @@ npm install -g truffle
 
 ### Install Dependencies
 ```
-yarn install
+npm install
 ```
 
-## Deploy Contract
+### Truffle Deploy Contract
 ```
 truffle migrate --network findora
+```
+
+### Hardhat Deploy Contract
+```
+npx hardhat run script/deploy.ts --network findora
+```
+
+### Waffle&Mars Deploy Contract
+```
+npm run deploy
 ```

@@ -1,0 +1,26 @@
+{
+  "name": "findora-truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "waffle && mars",
+    "test": "mocha",
+    "deploy": "ts-node src/deploy.ts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  },
+  "devDependencies": {
+    "ethereum-mars": "^0.1.5",
+    "ethereum-waffle": "^3.4.0",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "ethers": "^5.4.6",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
